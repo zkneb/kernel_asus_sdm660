@@ -1323,7 +1323,7 @@ static int pl_determine_initial_status(struct pl_data *chip)
 	return 0;
 }
 
-#define DEFAULT_RESTRICTED_CURRENT_UA	1000000
+#define DEFAULT_RESTRICTED_CURRENT_UA	1500000
 int qcom_batt_init(void)
 {
 	struct pl_data *chip;
